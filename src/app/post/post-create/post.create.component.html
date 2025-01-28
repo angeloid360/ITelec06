@@ -1,6 +1,17 @@
+<link rel = "stylesheet" href = "C:\Users\LENOVO\test-app\src\app\post\post-create">
 <h1>edi wow</h1>
 <textarea cols="30" rows="10" ((NgModel))="NewPost" placeholder="Input here..." ></textarea>
-<hr>
-<button (click)="onAddPost">save</button>
-<hr>
+<section>
+    <div class="example-label">Basic</div>
+    <div class="example-button-row">
+      <button mat-button>Basic</button>
+      <button mat-button color="primary">Primary</button>
+      <button mat-button color="accent">Accent</button>
+      <button mat-button color="warn">Warn</button>
+      <button mat-button disabled>Disabled</button>
+      <a mat-button href="https://www.google.com/" target="_blank">Link</a>
+    </div>
+  </section>
+  <mat-divider></mat-divider>
+
 <p>{{ NewPost }}</p>
